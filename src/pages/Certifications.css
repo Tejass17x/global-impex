@@ -1,0 +1,173 @@
+.certifications-page {
+  min-height: 100vh;
+}
+
+.certifications-hero {
+  background: linear-gradient(135deg, #4caf50 0%, #2d5016 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.certifications-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.certifications-hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.certifications-content {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.intro-section {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.certification-card {
+  background: #f9f9f9;
+  padding: 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  border-color: #4caf50;
+}
+
+.cert-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.cert-name {
+  font-size: 1.5rem;
+  color: #4caf50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.cert-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.quality-commitment {
+  background: #f9f9f9;
+  padding: 3rem;
+  border-radius: 15px;
+  border-left: 5px solid #4caf50;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quality-commitment h2 {
+  font-size: 2rem;
+  color: #4caf50;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.commitment-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.commitment-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.check-icon {
+  color: #4caf50;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.commitment-item p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .certifications-hero {
+    padding: 2rem 0;
+  }
+
+  .certifications-hero h1 {
+    font-size: 2rem;
+  }
+
+  .certifications-hero p {
+    font-size: 1rem;
+  }
+
+  .certifications-content {
+    padding: 2rem 0;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .certifications-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .certification-card {
+    padding: 2rem;
+  }
+
+  .quality-commitment {
+    padding: 2rem;
+  }
+
+  .quality-commitment h2 {
+    font-size: 1.5rem;
+  }
+
+  .commitment-points {
+    grid-template-columns: 1fr;
+  }
+}
+
